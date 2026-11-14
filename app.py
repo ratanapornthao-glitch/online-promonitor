@@ -31,7 +31,9 @@ if not (DATA / "extracted.csv").exists():
     st.stop()
 
 extracted = pd.read_csv(DATA / "extracted.csv")
-campaigns = sorted(extracted["campaign_name"].dropna().unique())
+# Order campaigns by date so the newest one is selected by default.
+campaigns = (extracted.dropna(subset=["campaign_name"])
+             .groupby("campaign_name")["snapshot_date"].min().sort_values().index.tolist())
 campaign = st.sidebar.selectbox("แคมเปญ", campaigns, index=len(campaigns) - 1)
 brands = sorted(extracted["brand"].dropna().unique())
 picked = st.sidebar.multiselect("แบรนด์คู่แข่ง", brands, default=brands)
