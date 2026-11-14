@@ -1,0 +1,18 @@
+{
+  "screenshot_file": "lumira_moisturizer_shopee_20261125.png",
+  "brand_seen": "Lumira",
+  "platform_seen": "shopee",
+  "product_name_raw": "[ของแท้ 100%] Lumira Barrier Repair Cream 50g มอยส์เจอไรเซอร์",
+  "size_ml_g": 50,
+  "pack_qty": 1,
+  "list_price": 749,
+  "display_price": 521,
+  "shop_voucher_thb": 30,
+  "platform_voucher_note": "โค้ดแพลตฟอร์มลด 10% สูงสุด ฿300 + Coins คืน 5%",
+  "upsell_mechanic": "bundle",
+  "upsell_detail": "เซ็ตคู่สุดคุ้ม 2 ชิ้น ลดเพิ่ม 15%",
+  "min_spend_or_qty": 2,
+  "gift_with_purchase": null,
+  "confidence": 0.9,
+  "flags": []
+}

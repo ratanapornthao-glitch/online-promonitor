@@ -1,0 +1,18 @@
+{
+  "screenshot_file": "hadaso_sunscreen_tiktok_20261125.png",
+  "brand_seen": "Hadaso",
+  "platform_seen": "tiktok",
+  "product_name_raw": "[HOT] Hadaso กันแดด UV 50มล. ส่งไว",
+  "size_ml_g": 50,
+  "pack_qty": 1,
+  "list_price": 469,
+  "display_price": 324,
+  "shop_voucher_thb": 0,
+  "platform_voucher_note": "โค้ดลดค่าส่ง ฿40 จากแพลตฟอร์ม",
+  "upsell_mechanic": "spend_x_save_y",
+  "upsell_detail": "ครบ 599 ลด 60",
+  "min_spend_or_qty": 599,
+  "gift_with_purchase": "สำลีแผ่น 1 ห่อ",
+  "confidence": 0.95,
+  "flags": []
+}

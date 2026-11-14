@@ -1,0 +1,18 @@
+{
+  "screenshot_file": "velaskin_cleanser_shopee_20261125.png",
+  "brand_seen": "Vela Skin",
+  "platform_seen": "shopee",
+  "product_name_raw": "[ของแท้ 100%] Vela Skin Gentle Amino Cleanser 150ml โฟมล้างหน้า",
+  "size_ml_g": 150,
+  "pack_qty": 1,
+  "list_price": 429,
+  "display_price": 360,
+  "shop_voucher_thb": 0,
+  "platform_voucher_note": "โค้ดแพลตฟอร์มลด 10% สูงสุด ฿300 + Coins คืน 5%",
+  "upsell_mechanic": "spend_x_save_y",
+  "upsell_detail": "ครบ 999 ลด 150",
+  "min_spend_or_qty": 999,
+  "gift_with_purchase": null,
+  "confidence": 0.93,
+  "flags": []
+}

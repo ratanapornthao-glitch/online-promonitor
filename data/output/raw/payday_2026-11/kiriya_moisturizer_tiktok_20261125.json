@@ -1,0 +1,18 @@
+{
+  "screenshot_file": "kiriya_moisturizer_tiktok_20261125.png",
+  "brand_seen": "Kiriya",
+  "platform_seen": "tiktok",
+  "product_name_raw": "[HOT] Kiriya มอยส์เจอไรเซอร์ Barrier 50กรัม ส่งไว",
+  "size_ml_g": 50,
+  "pack_qty": 1,
+  "list_price": 1199,
+  "display_price": 1113,
+  "shop_voucher_thb": 0,
+  "platform_voucher_note": "โค้ดลดค่าส่ง ฿40 จากแพลตฟอร์ม",
+  "upsell_mechanic": "gift_threshold",
+  "upsell_detail": "ครบ 1,500 รับมินิไซซ์ฟรี",
+  "min_spend_or_qty": 1500,
+  "gift_with_purchase": "มินิไซซ์ 15ml",
+  "confidence": 0.95,
+  "flags": []
+}

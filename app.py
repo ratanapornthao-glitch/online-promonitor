@@ -180,7 +180,11 @@ with tab_sim:
         st.error("ระดับส่วนลดนี้ขาดทุนในบางแพลตฟอร์ม")
 
 with tab_eval:
-    st.subheader("ความแม่นยำของ Agent เทียบ ground truth")
+    for live in sorted(METRICS.glob("evaluation_payday_2026-11.csv")):
+        st.subheader("Blind test: Agent อ่านภาพจริง 60 ภาพ (payday_2026-11, ก่อนคนตรวจ)")
+        st.dataframe(pd.read_csv(live), use_container_width=True, hide_index=True)
+        st.caption("ภาพจำลองอ่านง่ายกว่าหน้าจริง ตัวเลขนี้จึงเป็นขอบบนของความแม่นยำ รายละเอียดใน docs/results.md")
+    st.subheader("ความแม่นยำของ Agent เทียบ ground truth (ชุดข้อมูลเดิม, extractor จำลอง)")
     ev = load("evaluation")
     if ev.empty:
         st.info("รัน python src/evaluate.py เพื่อสร้างผลประเมิน")

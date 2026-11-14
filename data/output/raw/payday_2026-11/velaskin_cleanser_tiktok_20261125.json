@@ -1,0 +1,18 @@
+{
+  "screenshot_file": "velaskin_cleanser_tiktok_20261125.png",
+  "brand_seen": "Vela Skin",
+  "platform_seen": "tiktok",
+  "product_name_raw": "[HOT] Vela Skin โฟมล้างหน้า Gentle 150มล. ส่งไว",
+  "size_ml_g": 150,
+  "pack_qty": 1,
+  "list_price": 429,
+  "display_price": 376,
+  "shop_voucher_thb": 0,
+  "platform_voucher_note": "โค้ดลดค่าส่ง ฿40 จากแพลตฟอร์ม",
+  "upsell_mechanic": "spend_x_save_y",
+  "upsell_detail": "ครบ 999 ลด 150",
+  "min_spend_or_qty": 999,
+  "gift_with_purchase": "สำลีแผ่น 1 ห่อ",
+  "confidence": 0.95,
+  "flags": []
+}

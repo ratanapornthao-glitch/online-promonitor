@@ -1,0 +1,18 @@
+{
+  "screenshot_file": "kiriya_moisturizer_lazada_20261125.png",
+  "brand_seen": "Kiriya",
+  "platform_seen": "lazada",
+  "product_name_raw": "Kiriya Barrier Repair Cream 50 g (มอยส์เจอไรเซอร์)",
+  "size_ml_g": 50,
+  "pack_qty": 1,
+  "list_price": 1199,
+  "display_price": 1104,
+  "shop_voucher_thb": 0,
+  "platform_voucher_note": "LazBonus ทุก ฿300 ลด ฿30",
+  "upsell_mechanic": "gift_threshold",
+  "upsell_detail": "ครบ 1,500 รับมินิไซซ์ฟรี",
+  "min_spend_or_qty": 1500,
+  "gift_with_purchase": "มินิไซซ์ 15ml",
+  "confidence": 0.93,
+  "flags": []
+}

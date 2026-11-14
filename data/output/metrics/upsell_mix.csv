@@ -81,31 +81,33 @@ normal,Vela Skin,shopee,none,4,50.0
 normal,Vela Skin,shopee,spend_x_save_y,4,50.0
 normal,Vela Skin,tiktok,none,7,87.5
 normal,Vela Skin,tiktok,spend_x_save_y,1,12.5
-payday,Hadaso,lazada,spend_x_save_y,4,100.0
-payday,Hadaso,shopee,none,2,50.0
-payday,Hadaso,shopee,spend_x_save_y,2,50.0
-payday,Hadaso,tiktok,none,1,25.0
-payday,Hadaso,tiktok,spend_x_save_y,3,75.0
-payday,Kiriya,lazada,gift_threshold,3,75.0
-payday,Kiriya,lazada,none,1,25.0
-payday,Kiriya,shopee,gift_threshold,2,50.0
-payday,Kiriya,shopee,none,2,50.0
-payday,Kiriya,tiktok,gift_threshold,2,50.0
-payday,Kiriya,tiktok,none,2,50.0
-payday,Lumira,lazada,bundle,3,75.0
-payday,Lumira,lazada,none,1,25.0
-payday,Lumira,shopee,bundle,2,50.0
-payday,Lumira,shopee,none,2,50.0
-payday,Lumira,tiktok,bundle,2,50.0
-payday,Lumira,tiktok,none,2,50.0
-payday,Nurish Lab,lazada,multi_buy,2,50.0
-payday,Nurish Lab,lazada,none,2,50.0
-payday,Nurish Lab,shopee,multi_buy,2,50.0
-payday,Nurish Lab,shopee,none,2,50.0
-payday,Nurish Lab,tiktok,multi_buy,4,100.0
-payday,Vela Skin,lazada,none,1,25.0
-payday,Vela Skin,lazada,spend_x_save_y,3,75.0
-payday,Vela Skin,shopee,none,2,50.0
-payday,Vela Skin,shopee,spend_x_save_y,2,50.0
-payday,Vela Skin,tiktok,none,1,25.0
-payday,Vela Skin,tiktok,spend_x_save_y,3,75.0
+payday,Hadaso,lazada,none,2,25.0
+payday,Hadaso,lazada,spend_x_save_y,6,75.0
+payday,Hadaso,shopee,none,2,25.0
+payday,Hadaso,shopee,spend_x_save_y,6,75.0
+payday,Hadaso,tiktok,none,3,37.5
+payday,Hadaso,tiktok,spend_x_save_y,5,62.5
+payday,Kiriya,lazada,gift_threshold,7,87.5
+payday,Kiriya,lazada,none,1,12.5
+payday,Kiriya,shopee,gift_threshold,3,37.5
+payday,Kiriya,shopee,none,5,62.5
+payday,Kiriya,tiktok,gift_threshold,5,62.5
+payday,Kiriya,tiktok,none,3,37.5
+payday,Lumira,lazada,bundle,5,62.5
+payday,Lumira,lazada,none,3,37.5
+payday,Lumira,shopee,bundle,5,62.5
+payday,Lumira,shopee,none,3,37.5
+payday,Lumira,tiktok,bundle,4,50.0
+payday,Lumira,tiktok,none,4,50.0
+payday,Nurish Lab,lazada,multi_buy,5,62.5
+payday,Nurish Lab,lazada,none,3,37.5
+payday,Nurish Lab,shopee,multi_buy,4,50.0
+payday,Nurish Lab,shopee,none,4,50.0
+payday,Nurish Lab,tiktok,multi_buy,6,75.0
+payday,Nurish Lab,tiktok,none,2,25.0
+payday,Vela Skin,lazada,none,3,37.5
+payday,Vela Skin,lazada,spend_x_save_y,5,62.5
+payday,Vela Skin,shopee,none,4,50.0
+payday,Vela Skin,shopee,spend_x_save_y,4,50.0
+payday,Vela Skin,tiktok,none,1,12.5
+payday,Vela Skin,tiktok,spend_x_save_y,7,87.5

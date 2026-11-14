@@ -1,0 +1,18 @@
+{
+  "screenshot_file": "nurishlab_serum_tiktok_20261125.png",
+  "brand_seen": "Nurish Lab",
+  "platform_seen": "tiktok",
+  "product_name_raw": "[HOT] Nurish Lab เซรั่ม Bright 30มล. ส่งไว",
+  "size_ml_g": 30,
+  "pack_qty": 1,
+  "list_price": 799,
+  "display_price": 576,
+  "shop_voucher_thb": 20,
+  "platform_voucher_note": "โค้ดลดค่าส่ง ฿40 จากแพลตฟอร์ม",
+  "upsell_mechanic": "multi_buy",
+  "upsell_detail": "ซื้อ 2 ชิ้น ลดเพิ่ม 10%",
+  "min_spend_or_qty": 2,
+  "gift_with_purchase": null,
+  "confidence": 0.95,
+  "flags": []
+}

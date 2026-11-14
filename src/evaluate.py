@@ -74,19 +74,31 @@ def main() -> None:
     ap.add_argument("--sku-truth", default="data/ground_truth_sku.csv")
     ap.add_argument("--sku-map", default="data/output/sku_map.csv")
     ap.add_argument("--run-log", default="data/output/run_log.csv")
-    ap.add_argument("--out", default="data/output/metrics/evaluation.csv")
+    ap.add_argument("--out", default=None, help="default: metrics/evaluation.csv, or evaluation_<campaign>.csv")
+    ap.add_argument("--campaign", default=None,
+                    help="score one campaign only (e.g. a blind test run) and list every mismatch")
     args = ap.parse_args()
 
     pred = pd.read_csv(args.extracted)
     truth = pd.read_csv(args.truth)
+    if args.campaign:
+        truth = truth[truth["campaign_name"] == args.campaign]
+        if truth.empty:
+            raise SystemExit(f"no ground-truth rows for campaign {args.campaign!r} in {args.truth}")
+    metrics_dir = Path(args.extracted).parent / "metrics"  # results stay next to the data they score
+    args.out = args.out or str(metrics_dir / (f"evaluation_{args.campaign}.csv" if args.campaign
+                                              else "evaluation.csv"))
     m = truth.merge(pred, on="screenshot_file", suffixes=("_true", "_pred"), how="left")
     missing = m[[c for c in m.columns if c.endswith("_pred")][0]].isna().sum() if len(m) else 0
 
-    rows = []
+    rows, errors = [], []
     for f in PRICE_FIELDS + CATEGORY_FIELDS:
         if f"{f}_true" not in m or f"{f}_pred" not in m:
             continue
         ok = (_num_match if f in PRICE_FIELDS else _cat_match)(m[f"{f}_true"], m[f"{f}_pred"])
+        for _, r in m[~ok].iterrows():
+            errors.append({"screenshot_file": r.screenshot_file, "field": f,
+                           "truth": r[f"{f}_true"], "extracted": r[f"{f}_pred"]})
         rows.append({"field": f, "rows": len(m), "correct": int(ok.sum()),
                      "accuracy_pct": round(ok.mean() * 100, 1)})
 
@@ -98,8 +110,9 @@ def main() -> None:
         rows.append({"field": "brand_net_price (discount separation)", "rows": len(m),
                      "correct": int(ok.sum()), "accuracy_pct": round(ok.mean() * 100, 1)})
 
-    rows += sku_match_rows(Path(args.sku_truth), Path(args.sku_map))
-    rows += time_rows(Path(args.run_log))
+    if not args.campaign:  # SKU truth and run log cover all campaigns
+        rows += sku_match_rows(Path(args.sku_truth), Path(args.sku_map))
+        rows += time_rows(Path(args.run_log))
 
     report = pd.DataFrame(rows)
     report["unit"] = report.get("unit", pd.Series(index=report.index, dtype=object)).fillna("%")
@@ -110,6 +123,10 @@ def main() -> None:
     print(report.to_string(index=False))
     print(f"\nGround-truth rows: {len(truth)}  |  not found in extracted.csv: {missing}")
     print(f"Saved to {args.out}")
+    if args.campaign:
+        err_path = Path(args.out).with_name(f"evaluation_errors_{args.campaign}.csv")
+        pd.DataFrame(errors, columns=["screenshot_file", "field", "truth", "extracted"]).to_csv(err_path, index=False)
+        print(f"{len(errors)} field mismatches -> {err_path}")
 
 
 if __name__ == "__main__":

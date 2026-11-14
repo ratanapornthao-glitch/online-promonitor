@@ -1,0 +1,18 @@
+{
+  "screenshot_file": "nurishlab_serum_lazada_20261125.png",
+  "brand_seen": "Nurish Lab",
+  "platform_seen": "lazada",
+  "product_name_raw": "Nurish Lab Bright Serum Niacinamide 10% 30 ml (เซรั่ม)",
+  "size_ml_g": 30,
+  "pack_qty": 1,
+  "list_price": 799,
+  "display_price": 548,
+  "shop_voucher_thb": 0,
+  "platform_voucher_note": "LazBonus ทุก ฿300 ลด ฿30",
+  "upsell_mechanic": "multi_buy",
+  "upsell_detail": "ซื้อ 2 ชิ้น ลดเพิ่ม 10%",
+  "min_spend_or_qty": 2,
+  "gift_with_purchase": null,
+  "confidence": 0.93,
+  "flags": []
+}

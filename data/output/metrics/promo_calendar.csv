@@ -89,3 +89,18 @@ start_date,campaign_name,campaign_type,brand,platform,avg_discount_pct,max_disco
 2026-11-13,flash_2026-11-13,flash_sale,Vela Skin,lazada,32.8,35.1,100.0,spend_x_save_y,4
 2026-11-13,flash_2026-11-13,flash_sale,Vela Skin,shopee,17.3,25.3,100.0,spend_x_save_y,4
 2026-11-13,flash_2026-11-13,flash_sale,Vela Skin,tiktok,21.3,34.5,100.0,spend_x_save_y,4
+2026-11-25,payday_2026-11,payday,Hadaso,lazada,18.5,31.7,100.0,spend_x_save_y,4
+2026-11-25,payday_2026-11,payday,Hadaso,shopee,22.8,28.1,100.0,spend_x_save_y,4
+2026-11-25,payday_2026-11,payday,Hadaso,tiktok,35.3,44.7,100.0,spend_x_save_y,4
+2026-11-25,payday_2026-11,payday,Kiriya,lazada,5.9,7.9,100.0,gift_threshold,4
+2026-11-25,payday_2026-11,payday,Kiriya,shopee,6.9,8.5,100.0,gift_threshold,4
+2026-11-25,payday_2026-11,payday,Kiriya,tiktok,7.3,8.9,100.0,gift_threshold,4
+2026-11-25,payday_2026-11,payday,Lumira,lazada,24.7,33.9,100.0,bundle,4
+2026-11-25,payday_2026-11,payday,Lumira,shopee,29.1,34.4,100.0,bundle,4
+2026-11-25,payday_2026-11,payday,Lumira,tiktok,20.6,24.3,100.0,bundle,4
+2026-11-25,payday_2026-11,payday,Nurish Lab,lazada,32.9,35.5,100.0,multi_buy,4
+2026-11-25,payday_2026-11,payday,Nurish Lab,shopee,32.5,39.7,100.0,multi_buy,4
+2026-11-25,payday_2026-11,payday,Nurish Lab,tiktok,32.4,49.0,100.0,multi_buy,4
+2026-11-25,payday_2026-11,payday,Vela Skin,lazada,35.3,39.9,100.0,spend_x_save_y,4
+2026-11-25,payday_2026-11,payday,Vela Skin,shopee,14.7,16.9,100.0,spend_x_save_y,4
+2026-11-25,payday_2026-11,payday,Vela Skin,tiktok,12.8,14.1,100.0,spend_x_save_y,4

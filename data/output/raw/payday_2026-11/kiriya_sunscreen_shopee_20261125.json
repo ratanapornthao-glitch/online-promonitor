@@ -1,0 +1,18 @@
+{
+  "screenshot_file": "kiriya_sunscreen_shopee_20261125.png",
+  "brand_seen": "Kiriya",
+  "platform_seen": "shopee",
+  "product_name_raw": "[ของแท้ 100%] Kiriya UV Shield SPF50+ PA++++ 50ml กันแดด",
+  "size_ml_g": 50,
+  "pack_qty": 1,
+  "list_price": 939,
+  "display_price": 884,
+  "shop_voucher_thb": 0,
+  "platform_voucher_note": "โค้ดแพลตฟอร์มลด 10% สูงสุด ฿300 + Coins คืน 5%",
+  "upsell_mechanic": "gift_threshold",
+  "upsell_detail": "ครบ 1,500 รับมินิไซซ์ฟรี",
+  "min_spend_or_qty": 1500,
+  "gift_with_purchase": "มินิไซซ์ 15ml",
+  "confidence": 0.92,
+  "flags": []
+}

@@ -1,0 +1,18 @@
+{
+  "screenshot_file": "hadaso_serum_shopee_20261125.png",
+  "brand_seen": "Hadaso",
+  "platform_seen": "shopee",
+  "product_name_raw": "[ของแท้ 100%] Hadaso Bright Serum Niacinamide 10% 30ml เซรั่ม",
+  "size_ml_g": 30,
+  "pack_qty": 1,
+  "list_price": 709,
+  "display_price": 577,
+  "shop_voucher_thb": 0,
+  "platform_voucher_note": "โค้ดแพลตฟอร์มลด 10% สูงสุด ฿300 + Coins คืน 5%",
+  "upsell_mechanic": "spend_x_save_y",
+  "upsell_detail": "ครบ 599 ลด 60",
+  "min_spend_or_qty": 599,
+  "gift_with_purchase": null,
+  "confidence": 0.93,
+  "flags": []
+}

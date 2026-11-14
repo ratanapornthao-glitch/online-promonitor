@@ -1,0 +1,18 @@
+{
+  "screenshot_file": "lumira_serum_lazada_20261125.png",
+  "brand_seen": "Lumira",
+  "platform_seen": "lazada",
+  "product_name_raw": "Lumira Bright Serum Niacinamide 10% 30 ml (เซรั่ม)",
+  "size_ml_g": 30,
+  "pack_qty": 1,
+  "list_price": 889,
+  "display_price": 742,
+  "shop_voucher_thb": 80,
+  "platform_voucher_note": "LazBonus ทุก ฿300 ลด ฿30",
+  "upsell_mechanic": "none",
+  "upsell_detail": null,
+  "min_spend_or_qty": null,
+  "gift_with_purchase": "สำลีแผ่น 1 ห่อ",
+  "confidence": 0.93,
+  "flags": []
+}

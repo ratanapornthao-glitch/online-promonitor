@@ -1,0 +1,9 @@
+field,rows,correct,value,unit
+list_price,60,60,100.0,%
+display_price,60,60,100.0,%
+shop_voucher_thb,60,60,100.0,%
+size_ml_g,60,60,100.0,%
+min_spend_or_qty,60,60,100.0,%
+platform,60,60,100.0,%
+upsell_mechanic,60,60,100.0,%
+brand_net_price (discount separation),60,60,100.0,%
