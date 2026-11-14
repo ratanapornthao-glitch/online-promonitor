@@ -1,0 +1,17 @@
+campaign_name,brand,sku_id,platform,normal_list_price,list_price,list_price_raise_pct,discount_depth_pct
+10.10_2026,Vela Skin,velaskin-cleanser-150ml,lazada,429.0,509.0,18.6,45.0
+11.11_2026,Vela Skin,velaskin-cleanser-150ml,lazada,429.0,509.0,18.6,53.6
+flash_2026-11-13,Vela Skin,velaskin-cleanser-150ml,lazada,429.0,509.0,18.6,33.2
+payday_2026-10,Vela Skin,velaskin-cleanser-150ml,lazada,429.0,509.0,18.6,29.7
+10.10_2026,Vela Skin,velaskin-moisturizer-50g,lazada,829.0,979.0,18.1,49.7
+11.11_2026,Vela Skin,velaskin-moisturizer-50g,lazada,829.0,979.0,18.1,43.3
+flash_2026-11-13,Vela Skin,velaskin-moisturizer-50g,lazada,829.0,979.0,18.1,35.1
+payday_2026-10,Vela Skin,velaskin-moisturizer-50g,lazada,829.0,979.0,18.1,34.4
+10.10_2026,Vela Skin,velaskin-serum-30ml,lazada,979.0,1159.0,18.4,50.0
+11.11_2026,Vela Skin,velaskin-serum-30ml,lazada,979.0,1159.0,18.4,42.1
+flash_2026-11-13,Vela Skin,velaskin-serum-30ml,lazada,979.0,1159.0,18.4,31.5
+payday_2026-10,Vela Skin,velaskin-serum-30ml,lazada,979.0,1159.0,18.4,33.6
+10.10_2026,Vela Skin,velaskin-sunscreen-50ml,lazada,649.0,769.0,18.5,42.8
+11.11_2026,Vela Skin,velaskin-sunscreen-50ml,lazada,649.0,769.0,18.5,45.1
+flash_2026-11-13,Vela Skin,velaskin-sunscreen-50ml,lazada,649.0,769.0,18.5,31.5
+payday_2026-10,Vela Skin,velaskin-sunscreen-50ml,lazada,649.0,769.0,18.5,33.7

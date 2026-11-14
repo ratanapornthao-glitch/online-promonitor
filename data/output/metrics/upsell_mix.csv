@@ -1,0 +1,111 @@
+campaign_type,brand,platform,upsell_mechanic,listings,share_pct
+double_date,Hadaso,lazada,none,1,12.5
+double_date,Hadaso,lazada,spend_x_save_y,7,87.5
+double_date,Hadaso,shopee,none,2,25.0
+double_date,Hadaso,shopee,spend_x_save_y,6,75.0
+double_date,Hadaso,tiktok,none,2,25.0
+double_date,Hadaso,tiktok,spend_x_save_y,6,75.0
+double_date,Kiriya,lazada,gift_threshold,5,62.5
+double_date,Kiriya,lazada,none,3,37.5
+double_date,Kiriya,shopee,gift_threshold,6,75.0
+double_date,Kiriya,shopee,none,2,25.0
+double_date,Kiriya,tiktok,gift_threshold,7,87.5
+double_date,Kiriya,tiktok,none,1,12.5
+double_date,Lumira,lazada,bundle,6,75.0
+double_date,Lumira,lazada,none,2,25.0
+double_date,Lumira,shopee,bundle,6,75.0
+double_date,Lumira,shopee,none,2,25.0
+double_date,Lumira,tiktok,bundle,6,75.0
+double_date,Lumira,tiktok,none,2,25.0
+double_date,Nurish Lab,lazada,multi_buy,8,100.0
+double_date,Nurish Lab,shopee,multi_buy,4,50.0
+double_date,Nurish Lab,shopee,none,4,50.0
+double_date,Nurish Lab,tiktok,multi_buy,7,87.5
+double_date,Nurish Lab,tiktok,none,1,12.5
+double_date,Vela Skin,lazada,none,2,25.0
+double_date,Vela Skin,lazada,spend_x_save_y,6,75.0
+double_date,Vela Skin,shopee,none,2,25.0
+double_date,Vela Skin,shopee,spend_x_save_y,6,75.0
+double_date,Vela Skin,tiktok,none,3,37.5
+double_date,Vela Skin,tiktok,spend_x_save_y,5,62.5
+flash_sale,Hadaso,lazada,none,2,50.0
+flash_sale,Hadaso,lazada,spend_x_save_y,2,50.0
+flash_sale,Hadaso,shopee,none,2,50.0
+flash_sale,Hadaso,shopee,spend_x_save_y,2,50.0
+flash_sale,Hadaso,tiktok,spend_x_save_y,4,100.0
+flash_sale,Kiriya,lazada,gift_threshold,3,75.0
+flash_sale,Kiriya,lazada,none,1,25.0
+flash_sale,Kiriya,shopee,gift_threshold,3,75.0
+flash_sale,Kiriya,shopee,none,1,25.0
+flash_sale,Kiriya,tiktok,gift_threshold,2,50.0
+flash_sale,Kiriya,tiktok,none,2,50.0
+flash_sale,Lumira,lazada,bundle,4,100.0
+flash_sale,Lumira,shopee,bundle,2,50.0
+flash_sale,Lumira,shopee,none,2,50.0
+flash_sale,Lumira,tiktok,bundle,4,100.0
+flash_sale,Nurish Lab,lazada,multi_buy,4,100.0
+flash_sale,Nurish Lab,shopee,multi_buy,3,75.0
+flash_sale,Nurish Lab,shopee,none,1,25.0
+flash_sale,Nurish Lab,tiktok,multi_buy,3,75.0
+flash_sale,Nurish Lab,tiktok,none,1,25.0
+flash_sale,Vela Skin,lazada,none,1,25.0
+flash_sale,Vela Skin,lazada,spend_x_save_y,3,75.0
+flash_sale,Vela Skin,shopee,spend_x_save_y,4,100.0
+flash_sale,Vela Skin,tiktok,none,1,25.0
+flash_sale,Vela Skin,tiktok,spend_x_save_y,3,75.0
+normal,Hadaso,lazada,none,8,100.0
+normal,Hadaso,shopee,none,5,62.5
+normal,Hadaso,shopee,spend_x_save_y,3,37.5
+normal,Hadaso,tiktok,none,7,87.5
+normal,Hadaso,tiktok,spend_x_save_y,1,12.5
+normal,Kiriya,lazada,gift_threshold,2,25.0
+normal,Kiriya,lazada,none,6,75.0
+normal,Kiriya,shopee,gift_threshold,3,37.5
+normal,Kiriya,shopee,none,5,62.5
+normal,Kiriya,tiktok,gift_threshold,1,12.5
+normal,Kiriya,tiktok,none,7,87.5
+normal,Lumira,lazada,bundle,1,12.5
+normal,Lumira,lazada,none,7,87.5
+normal,Lumira,shopee,bundle,1,12.5
+normal,Lumira,shopee,none,7,87.5
+normal,Lumira,tiktok,bundle,2,25.0
+normal,Lumira,tiktok,none,6,75.0
+normal,Nurish Lab,lazada,none,8,100.0
+normal,Nurish Lab,shopee,multi_buy,1,12.5
+normal,Nurish Lab,shopee,none,7,87.5
+normal,Nurish Lab,tiktok,multi_buy,1,12.5
+normal,Nurish Lab,tiktok,none,7,87.5
+normal,Vela Skin,lazada,none,5,62.5
+normal,Vela Skin,lazada,spend_x_save_y,3,37.5
+normal,Vela Skin,shopee,none,4,50.0
+normal,Vela Skin,shopee,spend_x_save_y,4,50.0
+normal,Vela Skin,tiktok,none,7,87.5
+normal,Vela Skin,tiktok,spend_x_save_y,1,12.5
+payday,Hadaso,lazada,spend_x_save_y,4,100.0
+payday,Hadaso,shopee,none,2,50.0
+payday,Hadaso,shopee,spend_x_save_y,2,50.0
+payday,Hadaso,tiktok,none,1,25.0
+payday,Hadaso,tiktok,spend_x_save_y,3,75.0
+payday,Kiriya,lazada,gift_threshold,3,75.0
+payday,Kiriya,lazada,none,1,25.0
+payday,Kiriya,shopee,gift_threshold,2,50.0
+payday,Kiriya,shopee,none,2,50.0
+payday,Kiriya,tiktok,gift_threshold,2,50.0
+payday,Kiriya,tiktok,none,2,50.0
+payday,Lumira,lazada,bundle,3,75.0
+payday,Lumira,lazada,none,1,25.0
+payday,Lumira,shopee,bundle,2,50.0
+payday,Lumira,shopee,none,2,50.0
+payday,Lumira,tiktok,bundle,2,50.0
+payday,Lumira,tiktok,none,2,50.0
+payday,Nurish Lab,lazada,multi_buy,2,50.0
+payday,Nurish Lab,lazada,none,2,50.0
+payday,Nurish Lab,shopee,multi_buy,2,50.0
+payday,Nurish Lab,shopee,none,2,50.0
+payday,Nurish Lab,tiktok,multi_buy,4,100.0
+payday,Vela Skin,lazada,none,1,25.0
+payday,Vela Skin,lazada,spend_x_save_y,3,75.0
+payday,Vela Skin,shopee,none,2,50.0
+payday,Vela Skin,shopee,spend_x_save_y,2,50.0
+payday,Vela Skin,tiktok,none,1,25.0
+payday,Vela Skin,tiktok,spend_x_save_y,3,75.0

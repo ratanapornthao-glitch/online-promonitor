@@ -1,0 +1,91 @@
+start_date,campaign_name,campaign_type,brand,platform,avg_discount_pct,max_discount_pct,promo_breadth_pct,top_upsell_mechanic,listings
+2026-10-05,normal_2026-10-05,normal,Hadaso,lazada,11.2,13.0,100.0,none,4
+2026-10-05,normal_2026-10-05,normal,Hadaso,shopee,12.3,14.5,100.0,spend_x_save_y,4
+2026-10-05,normal_2026-10-05,normal,Hadaso,tiktok,15.3,16.8,100.0,spend_x_save_y,4
+2026-10-05,normal_2026-10-05,normal,Kiriya,lazada,3.6,4.7,100.0,gift_threshold,4
+2026-10-05,normal_2026-10-05,normal,Kiriya,shopee,5.9,7.5,100.0,gift_threshold,4
+2026-10-05,normal_2026-10-05,normal,Kiriya,tiktok,4.6,7.8,100.0,none,4
+2026-10-05,normal_2026-10-05,normal,Lumira,lazada,10.1,11.4,100.0,none,4
+2026-10-05,normal_2026-10-05,normal,Lumira,shopee,11.7,13.4,100.0,none,4
+2026-10-05,normal_2026-10-05,normal,Lumira,tiktok,8.7,11.4,100.0,bundle,4
+2026-10-05,normal_2026-10-05,normal,Nurish Lab,lazada,8.5,11.3,100.0,none,4
+2026-10-05,normal_2026-10-05,normal,Nurish Lab,shopee,9.9,10.9,100.0,none,4
+2026-10-05,normal_2026-10-05,normal,Nurish Lab,tiktok,6.2,11.8,75.0,multi_buy,4
+2026-10-05,normal_2026-10-05,normal,Vela Skin,lazada,7.9,9.3,100.0,spend_x_save_y,4
+2026-10-05,normal_2026-10-05,normal,Vela Skin,shopee,9.2,10.4,100.0,spend_x_save_y,4
+2026-10-05,normal_2026-10-05,normal,Vela Skin,tiktok,8.6,10.6,100.0,spend_x_save_y,4
+2026-10-10,10.10_2026,double_date,Hadaso,lazada,22.7,28.2,100.0,spend_x_save_y,4
+2026-10-10,10.10_2026,double_date,Hadaso,shopee,24.5,27.0,100.0,spend_x_save_y,4
+2026-10-10,10.10_2026,double_date,Hadaso,tiktok,50.8,52.5,100.0,spend_x_save_y,4
+2026-10-10,10.10_2026,double_date,Kiriya,lazada,10.4,11.5,100.0,gift_threshold,4
+2026-10-10,10.10_2026,double_date,Kiriya,shopee,8.8,9.5,100.0,gift_threshold,4
+2026-10-10,10.10_2026,double_date,Kiriya,tiktok,10.4,12.1,100.0,gift_threshold,4
+2026-10-10,10.10_2026,double_date,Lumira,lazada,33.7,41.6,100.0,bundle,4
+2026-10-10,10.10_2026,double_date,Lumira,shopee,57.3,61.7,100.0,bundle,4
+2026-10-10,10.10_2026,double_date,Lumira,tiktok,37.7,46.5,100.0,bundle,4
+2026-10-10,10.10_2026,double_date,Nurish Lab,lazada,31.2,40.1,100.0,multi_buy,4
+2026-10-10,10.10_2026,double_date,Nurish Lab,shopee,21.4,28.7,100.0,multi_buy,4
+2026-10-10,10.10_2026,double_date,Nurish Lab,tiktok,20.3,26.3,100.0,multi_buy,4
+2026-10-10,10.10_2026,double_date,Vela Skin,lazada,46.9,50.0,100.0,spend_x_save_y,4
+2026-10-10,10.10_2026,double_date,Vela Skin,shopee,31.6,37.8,100.0,spend_x_save_y,4
+2026-10-10,10.10_2026,double_date,Vela Skin,tiktok,31.3,36.6,100.0,spend_x_save_y,4
+2026-10-28,payday_2026-10,payday,Hadaso,lazada,15.3,23.5,100.0,spend_x_save_y,4
+2026-10-28,payday_2026-10,payday,Hadaso,shopee,19.1,31.4,100.0,spend_x_save_y,4
+2026-10-28,payday_2026-10,payday,Hadaso,tiktok,32.6,47.2,100.0,spend_x_save_y,4
+2026-10-28,payday_2026-10,payday,Kiriya,lazada,6.7,7.7,100.0,gift_threshold,4
+2026-10-28,payday_2026-10,payday,Kiriya,shopee,7.3,8.8,100.0,gift_threshold,4
+2026-10-28,payday_2026-10,payday,Kiriya,tiktok,6.6,9.8,100.0,gift_threshold,4
+2026-10-28,payday_2026-10,payday,Lumira,lazada,22.6,23.1,100.0,bundle,4
+2026-10-28,payday_2026-10,payday,Lumira,shopee,29.8,31.2,100.0,bundle,4
+2026-10-28,payday_2026-10,payday,Lumira,tiktok,21.3,27.5,100.0,bundle,4
+2026-10-28,payday_2026-10,payday,Nurish Lab,lazada,35.5,44.0,100.0,multi_buy,4
+2026-10-28,payday_2026-10,payday,Nurish Lab,shopee,27.3,28.4,100.0,multi_buy,4
+2026-10-28,payday_2026-10,payday,Nurish Lab,tiktok,29.4,30.7,100.0,multi_buy,4
+2026-10-28,payday_2026-10,payday,Vela Skin,lazada,32.8,34.4,100.0,spend_x_save_y,4
+2026-10-28,payday_2026-10,payday,Vela Skin,shopee,16.3,19.3,100.0,spend_x_save_y,4
+2026-10-28,payday_2026-10,payday,Vela Skin,tiktok,15.6,18.9,100.0,spend_x_save_y,4
+2026-11-04,normal_2026-11-04,normal,Hadaso,lazada,9.8,11.2,100.0,none,4
+2026-11-04,normal_2026-11-04,normal,Hadaso,shopee,12.8,13.9,100.0,spend_x_save_y,4
+2026-11-04,normal_2026-11-04,normal,Hadaso,tiktok,14.7,16.9,100.0,none,4
+2026-11-04,normal_2026-11-04,normal,Kiriya,lazada,3.4,3.9,100.0,gift_threshold,4
+2026-11-04,normal_2026-11-04,normal,Kiriya,shopee,4.3,5.2,100.0,gift_threshold,4
+2026-11-04,normal_2026-11-04,normal,Kiriya,tiktok,5.3,7.2,100.0,gift_threshold,4
+2026-11-04,normal_2026-11-04,normal,Lumira,lazada,8.3,11.8,100.0,bundle,4
+2026-11-04,normal_2026-11-04,normal,Lumira,shopee,11.9,13.8,100.0,bundle,4
+2026-11-04,normal_2026-11-04,normal,Lumira,tiktok,10.9,12.2,100.0,bundle,4
+2026-11-04,normal_2026-11-04,normal,Nurish Lab,lazada,10.3,13.2,100.0,none,4
+2026-11-04,normal_2026-11-04,normal,Nurish Lab,shopee,8.7,12.1,100.0,multi_buy,4
+2026-11-04,normal_2026-11-04,normal,Nurish Lab,tiktok,9.3,10.6,100.0,none,4
+2026-11-04,normal_2026-11-04,normal,Vela Skin,lazada,7.7,9.7,100.0,spend_x_save_y,4
+2026-11-04,normal_2026-11-04,normal,Vela Skin,shopee,8.7,10.9,100.0,spend_x_save_y,4
+2026-11-04,normal_2026-11-04,normal,Vela Skin,tiktok,8.7,10.0,100.0,none,4
+2026-11-11,11.11_2026,double_date,Hadaso,lazada,27.8,32.2,100.0,spend_x_save_y,4
+2026-11-11,11.11_2026,double_date,Hadaso,shopee,31.9,50.2,100.0,spend_x_save_y,4
+2026-11-11,11.11_2026,double_date,Hadaso,tiktok,48.0,60.6,100.0,spend_x_save_y,4
+2026-11-11,11.11_2026,double_date,Kiriya,lazada,8.9,10.9,100.0,gift_threshold,4
+2026-11-11,11.11_2026,double_date,Kiriya,shopee,11.0,12.9,100.0,gift_threshold,4
+2026-11-11,11.11_2026,double_date,Kiriya,tiktok,10.7,12.2,100.0,gift_threshold,4
+2026-11-11,11.11_2026,double_date,Lumira,lazada,32.7,38.6,100.0,bundle,4
+2026-11-11,11.11_2026,double_date,Lumira,shopee,56.7,58.5,100.0,bundle,4
+2026-11-11,11.11_2026,double_date,Lumira,tiktok,36.8,42.3,100.0,bundle,4
+2026-11-11,11.11_2026,double_date,Nurish Lab,lazada,18.7,30.6,100.0,multi_buy,4
+2026-11-11,11.11_2026,double_date,Nurish Lab,shopee,25.3,32.9,100.0,multi_buy,4
+2026-11-11,11.11_2026,double_date,Nurish Lab,tiktok,21.6,30.2,100.0,multi_buy,4
+2026-11-11,11.11_2026,double_date,Vela Skin,lazada,46.0,53.6,100.0,spend_x_save_y,4
+2026-11-11,11.11_2026,double_date,Vela Skin,shopee,31.1,34.4,100.0,spend_x_save_y,4
+2026-11-11,11.11_2026,double_date,Vela Skin,tiktok,32.8,39.2,100.0,spend_x_save_y,4
+2026-11-13,flash_2026-11-13,flash_sale,Hadaso,lazada,35.1,45.6,100.0,spend_x_save_y,4
+2026-11-13,flash_2026-11-13,flash_sale,Hadaso,shopee,41.9,50.8,100.0,spend_x_save_y,4
+2026-11-13,flash_2026-11-13,flash_sale,Hadaso,tiktok,59.4,66.3,100.0,spend_x_save_y,4
+2026-11-13,flash_2026-11-13,flash_sale,Kiriya,lazada,5.0,6.8,100.0,gift_threshold,4
+2026-11-13,flash_2026-11-13,flash_sale,Kiriya,shopee,6.1,7.6,100.0,gift_threshold,4
+2026-11-13,flash_2026-11-13,flash_sale,Kiriya,tiktok,4.6,7.3,100.0,gift_threshold,4
+2026-11-13,flash_2026-11-13,flash_sale,Lumira,lazada,25.7,40.6,100.0,bundle,4
+2026-11-13,flash_2026-11-13,flash_sale,Lumira,shopee,38.3,45.0,100.0,bundle,4
+2026-11-13,flash_2026-11-13,flash_sale,Lumira,tiktok,28.0,44.7,100.0,bundle,4
+2026-11-13,flash_2026-11-13,flash_sale,Nurish Lab,lazada,23.7,32.7,100.0,multi_buy,4
+2026-11-13,flash_2026-11-13,flash_sale,Nurish Lab,shopee,23.4,32.1,100.0,multi_buy,4
+2026-11-13,flash_2026-11-13,flash_sale,Nurish Lab,tiktok,21.9,27.5,100.0,multi_buy,4
+2026-11-13,flash_2026-11-13,flash_sale,Vela Skin,lazada,32.8,35.1,100.0,spend_x_save_y,4
+2026-11-13,flash_2026-11-13,flash_sale,Vela Skin,shopee,17.3,25.3,100.0,spend_x_save_y,4
+2026-11-13,flash_2026-11-13,flash_sale,Vela Skin,tiktok,21.3,34.5,100.0,spend_x_save_y,4

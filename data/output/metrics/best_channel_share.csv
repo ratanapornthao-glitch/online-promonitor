@@ -1,0 +1,60 @@
+campaign_type,campaign_name,brand,platform,cheapest_count,skus_compared,best_channel_share_pct
+double_date,10.10_2026,Hadaso,tiktok,4,4,100.0
+double_date,10.10_2026,Kiriya,lazada,1,4,25.0
+double_date,10.10_2026,Kiriya,shopee,1,4,25.0
+double_date,10.10_2026,Kiriya,tiktok,2,4,50.0
+double_date,10.10_2026,Lumira,shopee,4,4,100.0
+double_date,10.10_2026,Nurish Lab,lazada,3,4,75.0
+double_date,10.10_2026,Nurish Lab,tiktok,1,4,25.0
+double_date,10.10_2026,Vela Skin,lazada,3,4,75.0
+double_date,10.10_2026,Vela Skin,tiktok,1,4,25.0
+double_date,11.11_2026,Hadaso,shopee,1,4,25.0
+double_date,11.11_2026,Hadaso,tiktok,3,4,75.0
+double_date,11.11_2026,Kiriya,lazada,1,4,25.0
+double_date,11.11_2026,Kiriya,shopee,3,4,75.0
+double_date,11.11_2026,Lumira,shopee,4,4,100.0
+double_date,11.11_2026,Nurish Lab,shopee,3,4,75.0
+double_date,11.11_2026,Nurish Lab,tiktok,1,4,25.0
+double_date,11.11_2026,Vela Skin,lazada,1,4,25.0
+double_date,11.11_2026,Vela Skin,shopee,1,4,25.0
+double_date,11.11_2026,Vela Skin,tiktok,2,4,50.0
+flash_sale,flash_2026-11-13,Hadaso,tiktok,4,4,100.0
+flash_sale,flash_2026-11-13,Kiriya,shopee,3,4,75.0
+flash_sale,flash_2026-11-13,Kiriya,tiktok,1,4,25.0
+flash_sale,flash_2026-11-13,Lumira,shopee,4,4,100.0
+flash_sale,flash_2026-11-13,Nurish Lab,lazada,2,4,50.0
+flash_sale,flash_2026-11-13,Nurish Lab,tiktok,2,4,50.0
+flash_sale,flash_2026-11-13,Vela Skin,lazada,2,4,50.0
+flash_sale,flash_2026-11-13,Vela Skin,shopee,1,4,25.0
+flash_sale,flash_2026-11-13,Vela Skin,tiktok,1,4,25.0
+normal,normal_2026-10-05,Hadaso,shopee,1,4,25.0
+normal,normal_2026-10-05,Hadaso,tiktok,3,4,75.0
+normal,normal_2026-10-05,Kiriya,shopee,2,4,50.0
+normal,normal_2026-10-05,Kiriya,tiktok,2,4,50.0
+normal,normal_2026-10-05,Lumira,lazada,1,4,25.0
+normal,normal_2026-10-05,Lumira,shopee,3,4,75.0
+normal,normal_2026-10-05,Nurish Lab,shopee,2,4,50.0
+normal,normal_2026-10-05,Nurish Lab,tiktok,2,4,50.0
+normal,normal_2026-10-05,Vela Skin,shopee,2,4,50.0
+normal,normal_2026-10-05,Vela Skin,tiktok,2,4,50.0
+normal,normal_2026-11-04,Hadaso,shopee,1,4,25.0
+normal,normal_2026-11-04,Hadaso,tiktok,3,4,75.0
+normal,normal_2026-11-04,Kiriya,shopee,2,4,50.0
+normal,normal_2026-11-04,Kiriya,tiktok,2,4,50.0
+normal,normal_2026-11-04,Lumira,lazada,1,4,25.0
+normal,normal_2026-11-04,Lumira,shopee,2,4,50.0
+normal,normal_2026-11-04,Lumira,tiktok,1,4,25.0
+normal,normal_2026-11-04,Nurish Lab,lazada,1,4,25.0
+normal,normal_2026-11-04,Nurish Lab,shopee,1,4,25.0
+normal,normal_2026-11-04,Nurish Lab,tiktok,2,4,50.0
+normal,normal_2026-11-04,Vela Skin,lazada,1,4,25.0
+normal,normal_2026-11-04,Vela Skin,shopee,2,4,50.0
+normal,normal_2026-11-04,Vela Skin,tiktok,1,4,25.0
+payday,payday_2026-10,Hadaso,tiktok,4,4,100.0
+payday,payday_2026-10,Kiriya,lazada,2,4,50.0
+payday,payday_2026-10,Kiriya,shopee,1,4,25.0
+payday,payday_2026-10,Kiriya,tiktok,1,4,25.0
+payday,payday_2026-10,Lumira,shopee,4,4,100.0
+payday,payday_2026-10,Nurish Lab,lazada,4,4,100.0
+payday,payday_2026-10,Vela Skin,lazada,3,4,75.0
+payday,payday_2026-10,Vela Skin,shopee,1,4,25.0
