@@ -80,7 +80,7 @@ def main() -> None:
     args = ap.parse_args()
 
     pred = pd.read_csv(args.extracted)
-    truth = pd.read_csv(args.truth)
+    truth = pd.read_csv(args.truth, encoding="utf-8-sig")  # Excel-friendly CSV with BOM
     if args.campaign:
         truth = truth[truth["campaign_name"] == args.campaign]
         if truth.empty:
