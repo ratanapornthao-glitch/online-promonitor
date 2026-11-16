@@ -88,8 +88,33 @@
 ## 5. ข้อมูลประกอบ Rationale (ขนาดตลาด)
 
 - e-commerce บนแพลตฟอร์มในอาเซียนปี 2025 มีมูลค่า **US$157.6 พันล้าน** โต **22.8%** และ Shopee, Lazada, TikTok Shop รวมกันครองตลาดประมาณ **98.8%** [30]
-- **ไทยโตเร็วที่สุดในภูมิภาค +51.8%** ต่อปี [30] สื่อไทยอ้างรายงานเดียวกันว่ามูลค่าตลาดไทยปี 2025 ประมาณ US$35.5 พันล้าน และ Shopee ยังมีส่วนแบ่งมากที่สุด ขณะที่ TikTok Shop โตเร็ว [31]
-- **นัยต่อโปรเจกต์:** แบรนด์ไทยต้องติดตามทั้ง 3 แพลตฟอร์มเท่านั้นก็ครอบคลุมเกือบทั้งตลาด และตลาดที่โตเร็วทำให้การแข่งขันด้านโปรโมชันรุนแรงขึ้น
+- **ไทยโตเร็วที่สุดในภูมิภาค +51.8%** ต่อปี [30] มูลค่าตลาดไทยปี 2025 ประมาณ **US$35.5 พันล้าน** Shopee ยังครองมากกว่า 50% ในไทย TikTok Shop กำลังไล่ทัน ส่วน Lazada ปรับไปเน้นแบรนด์และสินค้าพรีเมียม [32]
+
+### ส่วนแบ่งตลาดเฉพาะประเทศไทย (ส่วนแบ่ง GMV ของ 3 แพลตฟอร์มรวมกัน)
+
+ข้อมูลจาก Cube (ชุดข้อมูล Tradewinds ประมาณ GMV สินค้าที่จับต้องได้บน 3 แพลตฟอร์ม เผยแพร่ 13 ต.ค. 2026) [33]
+
+| ช่วงเวลา | Shopee | TikTok Shop | Lazada |
+| --- | --- | --- | --- |
+| Q1 2025 | 50% | 35% | 15% |
+| Q2 2025 | 56% | 30% | 14% |
+| Q3 2025 | 54% | 36% | 10% |
+| Q4 2025 | 49% | 43% | 8% |
+| Q1 2026 | 48% | 45% | 8% |
+| **Q2 2026** | **45%** | **48%** | **7%** |
+
+- ทั้งปี 2025 Shopee ครองประมาณ **52%** มูลค่ารวม 3 แพลตฟอร์มปี 2025 = US$30.7 พันล้าน (+21%) [33]
+- **Q2 2026 เป็นไตรมาสแรกที่ TikTok Shop แซง Shopee ในไทย** (US$5.3 พันล้าน vs US$4.9 พันล้าน) แต่ Shopee ยังมีจำนวนออเดอร์มากกว่า และครึ่งปีแรก 2026 ทั้งคู่เสมอกันที่ 46% [33]
+- ตัวเลขมูลค่ารวมของ Momentum Works (US$35.5 พันล้าน) กับ Cube (US$30.7 พันล้าน) ต่างกัน เพราะนับขอบเขตต่างกัน (Cube นับเฉพาะสินค้าที่จับต้องได้บน 3 แพลตฟอร์ม) ทั้งสองเป็น **ค่าประมาณของบริษัทวิจัย** ไม่ใช่ตัวเลขที่แพลตฟอร์มเปิดเผยเอง
+
+**ตัวเลขที่ไม่ควรใช้เป็นส่วนแบ่งตลาด**
+- "Shopee 50% / TikTok Shop 32% / Lazada 18% (ปี 2025)" ถูกอ้างต่อกันในบทความหลายแห่ง แต่ไม่ระบุว่าวัดอะไร (GMV, ออเดอร์ หรือผู้ใช้) [34]
+- "Shopee 89% / TikTok Shop 71% / Lazada 66%" เป็น **สัดส่วนผู้ตอบแบบสำรวจที่ใช้แต่ละแพลตฟอร์ม** (ตอบได้หลายข้อ รวมเกิน 100%) ไม่ใช่ส่วนแบ่งยอดขาย [35]
+
+**นัยต่อโปรเจกต์**
+- ต้องติดตาม **ทั้ง 3 แพลตฟอร์ม** จึงจะครอบคลุมเกือบทั้งตลาด และตลาดที่โตเร็วทำให้การแข่งขันด้านโปรโมชันรุนแรงขึ้น
+- **TikTok Shop ส่วนแบ่งเปลี่ยนเร็วมาก** (30% → 48% ใน 5 ไตรมาส) การดูแค่ Shopee แบบเดิมจะพลาดสนามที่คู่แข่งกำลังย้ายงบโปรไป ตรงกับเรื่อง Hadaso ที่ลดแรงสุดบน TikTok ในข้อมูลสาธิต
+- **Lazada ส่วนแบ่งลดลง แต่เน้นแบรนด์ (LazMall)** ยังสำคัญสำหรับแบรนด์สกินแคร์ที่ขายผ่านร้าน official
 
 ## รายการอ้างอิง
 
@@ -126,3 +151,7 @@
 29. [R] Shen et al., "OCR or Not? Rethinking Document Information Extraction in the MLLMs Era with Real-World Large-Scale Datasets" (2026), arXiv:2603.02789 — https://arxiv.org/abs/2603.02789
 30. [P] Momentum Works, "Southeast Asia's platform ecommerce reaches US$157.6B in 2025" (14 เม.ย. 2026) — https://thelowdown.momentum.asia/new-report-southeast-asias-platform-ecommerce-reaches-us157-6b-in-2025-with-top-platforms-expanding-share-to-98-8/
 31. [S] MarketingOops (อ้างรายงาน Momentum Works) — https://www.marketingoops.com/?p=373302
+32. [S] Bangkok Post, "Thailand driving e-commerce growth" อ้างรายงาน Momentum Works "Ecommerce in Southeast Asia 2026" (เผยแพร่ซ้ำโดย AEC VCCI, 20 เม.ย. 2026) — https://www.bangkokpost.com/business/general/3239004/thailand-driving-ecommerce-growth · https://en.aecvcci.vn/tin-tuc-n15259/thailand-driving-e-commerce-growth.htm
+33. [P] Cube Asia, "E-commerce in Thailand: Market Data, Platform Breakdown, and What Brands Need to Know in 2026" (Tradewinds H1 2026, 13 ต.ค. 2026) — https://cube.asia/ecommerce-in-thailand/
+34. [S] AnyMind Group, "[2026 Local Data] Comparing Thailand's Top 3 E-commerce Platforms" (1 ก.ค. 2026) — https://note.com/anymindgroup/n/n75cc4480a32e?hl=en
+35. [S] Brand Inside, ผลสำรวจ Milieu Insight: TikTok Shop นิยมอันดับ 2 รองจาก Shopee — https://brandinside.asia/milieu-insight-poll-tiktok-shop-no-2-in-thailand/
