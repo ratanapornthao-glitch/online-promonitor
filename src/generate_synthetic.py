@@ -179,6 +179,133 @@ def simulate_extraction(truth: pd.DataFrame, rng: random.Random) -> pd.DataFrame
 
 # ---------- mock screenshot ----------
 
+# brand key -> packaging colours: body, accent, label text, background tint
+BRAND_STYLE = {
+    "lumira":    dict(body=(255, 251, 242), accent=(226, 164, 36), text=(120, 84, 10), bg=(255, 241, 208)),
+    "hadaso":    dict(body=(236, 248, 243), accent=(36, 146, 116), text=(18, 92, 72), bg=(216, 240, 230)),
+    "velaskin":  dict(body=(252, 236, 240), accent=(192, 86, 118), text=(128, 40, 70), bg=(250, 226, 234)),
+    "nurishlab": dict(body=(240, 242, 252), accent=(78, 98, 192), text=(40, 54, 130), bg=(226, 231, 250)),
+    "kiriya":    dict(body=(38, 36, 40), accent=(198, 168, 108), text=(226, 206, 160), bg=(238, 232, 222)),
+}
+PRODUCT_LINE = {"sunscreen": ("UV SHIELD", "SPF50+ PA++++"), "serum": ("BRIGHT SERUM", "Niacinamide 10%"),
+                "cleanser": ("AMINO CLEANSER", "Gentle Foam"), "moisturizer": ("BARRIER", "Repair Cream")}
+PRODUCT_UNIT = {"sunscreen": "ml", "serum": "ml", "cleanser": "ml", "moisturizer": "g"}
+
+
+def draw_product_photo(img, row: pd.Series, f, box: tuple) -> None:
+    """Draw a simple illustrated product shot inside `box` on `img`."""
+    from PIL import Image, ImageDraw, ImageFilter
+
+    bkey, pkey = row.screenshot_file.split("_")[:2]
+    s = BRAND_STYLE[bkey]
+    x0, y0, x1, y1 = box
+    w, h = x1 - x0, y1 - y0
+
+    # backdrop: soft vertical gradient + floor
+    bg = Image.new("RGB", (w, h), s["bg"])
+    gd = ImageDraw.Draw(bg)
+    for i in range(h):
+        t = i / h
+        c = tuple(int(v * (1 - 0.10 * t) + 255 * 0.10 * (1 - t)) for v in s["bg"])
+        gd.line([(0, i), (w, i)], fill=c)
+    gd.rectangle([0, int(h * 0.80), w, h], fill=tuple(max(v - 14, 0) for v in s["bg"]))
+    # decorative circle behind product
+    gd.ellipse([w / 2 - 120, 18, w / 2 + 120, 258], fill=tuple(min(v + 12, 255) for v in s["bg"]))
+
+    layer = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    base = int(h * 0.86)
+    bundle = row.upsell_mechanic == "bundle"
+    centers = [w / 2 - 66, w / 2 + 66] if bundle else [w / 2]
+    scale = 0.86 if bundle else 1.0
+
+    # shadows first
+    sh = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    sd = ImageDraw.Draw(sh)
+    for cx in centers:
+        sd.ellipse([cx - 70 * scale, base - 8, cx + 70 * scale, base + 10], fill=(0, 0, 0, 70))
+    sh = sh.filter(ImageFilter.GaussianBlur(6))
+    layer = Image.alpha_composite(layer, sh)
+    d = ImageDraw.Draw(layer)
+
+    line1, line2 = PRODUCT_LINE[pkey]
+    size_txt = f"{row.size_ml_g:g}{PRODUCT_UNIT[pkey]}"
+    hi = (255, 255, 255, 110)
+
+    def label(cx, top, width, height):
+        lw = width - 16 * scale
+        d.rounded_rectangle([cx - lw / 2, top, cx + lw / 2, top + height], radius=int(6 * scale),
+                            fill=s["body"] if bkey != "kiriya" else (52, 50, 55))
+        d.text((cx, top + height * 0.22), row.brand.upper(), font=f(int(15 * scale), True), fill=s["accent"], anchor="mm")
+        d.line([cx - lw / 2 + 12, top + height * 0.38, cx + lw / 2 - 12, top + height * 0.38], fill=s["accent"], width=1)
+        fs = int(13 * scale)
+        while fs > 7 and d.textlength(line1, font=f(fs, True)) > lw - 10:
+            fs -= 1
+        d.text((cx, top + height * 0.54), line1, font=f(fs, True), fill=s["text"], anchor="mm")
+        d.text((cx, top + height * 0.71), line2, font=f(int(10 * scale)), fill=s["text"], anchor="mm")
+        d.text((cx, top + height * 0.88), size_txt, font=f(int(11 * scale), True), fill=s["text"], anchor="mm")
+
+    for cx in centers:
+        k = scale
+        if pkey == "sunscreen":          # squeeze tube standing on its cap
+            bw, top, cap_h = 104 * k, base - 228 * k, 44 * k
+            d.rounded_rectangle([cx - bw / 2 - 4, top - 6, cx + bw / 2 + 4, top + 10], radius=3, fill=s["accent"])
+            d.polygon([(cx - bw / 2, top + 8), (cx + bw / 2, top + 8), (cx + bw / 2 - 6 * k, base - cap_h),
+                       (cx - bw / 2 + 6 * k, base - cap_h)], fill=s["body"])
+            d.rounded_rectangle([cx - 40 * k, base - cap_h, cx + 40 * k, base], radius=int(8 * k), fill=s["accent"])
+            d.rectangle([cx - bw / 2 + 10 * k, top + 14, cx - bw / 2 + 18 * k, base - cap_h - 10], fill=hi)
+            label(cx, top + 40 * k, bw - 6 * k, 120 * k)
+        elif pkey == "serum":            # glass dropper bottle
+            bw, bh = 100 * k, 132 * k
+            top = base - bh
+            d.rounded_rectangle([cx - bw / 2, top, cx + bw / 2, base], radius=int(14 * k), fill=s["accent"] + (235,))
+            d.rectangle([cx - 20 * k, top - 14 * k, cx + 20 * k, top + 4], fill=s["accent"])
+            d.rounded_rectangle([cx - 26 * k, top - 40 * k, cx + 26 * k, top - 12 * k], radius=int(5 * k),
+                                fill=(30, 30, 30) if bkey != "kiriya" else s["accent"])
+            d.ellipse([cx - 20 * k, top - 92 * k, cx + 20 * k, top - 34 * k],
+                      fill=(40, 40, 40) if bkey != "kiriya" else (25, 25, 28))
+            d.rectangle([cx - bw / 2 + 8 * k, top + 10, cx - bw / 2 + 15 * k, base - 12], fill=hi)
+            label(cx, top + 18 * k, bw, 100 * k)
+        elif pkey == "cleanser":         # pump bottle
+            bw, bh = 104 * k, 176 * k
+            top = base - bh
+            d.rounded_rectangle([cx - bw / 2, top, cx + bw / 2, base], radius=int(18 * k), fill=s["body"])
+            d.rounded_rectangle([cx - bw / 2, top, cx + bw / 2, base], radius=int(18 * k), outline=s["accent"], width=2)
+            d.rectangle([cx - 22 * k, top - 18 * k, cx + 22 * k, top + 2], fill=s["accent"])
+            d.rectangle([cx - 6 * k, top - 44 * k, cx + 6 * k, top - 18 * k], fill=s["accent"])
+            d.rounded_rectangle([cx - 30 * k, top - 58 * k, cx + 14 * k, top - 42 * k], radius=int(4 * k), fill=s["accent"])
+            d.rectangle([cx - 54 * k, top - 54 * k, cx - 28 * k, top - 47 * k], fill=s["accent"])
+            d.rectangle([cx - bw / 2 + 10 * k, top + 16, cx - bw / 2 + 17 * k, base - 16], fill=hi)
+            label(cx, top + 40 * k, bw, 112 * k)
+        else:                            # cream jar
+            jw, jh, lh = 170 * k, 82 * k, 46 * k
+            top = base - jh
+            d.rounded_rectangle([cx - jw / 2, top, cx + jw / 2, base], radius=int(12 * k), fill=s["body"])
+            d.rounded_rectangle([cx - jw / 2, top, cx + jw / 2, base], radius=int(12 * k), outline=s["accent"], width=2)
+            d.rounded_rectangle([cx - jw / 2 - 4, top - lh, cx + jw / 2 + 4, top + 4], radius=int(10 * k), fill=s["accent"])
+            d.line([cx - jw / 2 + 6, top - lh + 10, cx + jw / 2 - 6, top - lh + 10], fill=hi, width=3)
+            d.text((cx, top - lh / 2 + 2), row.brand.upper(), font=f(int(18 * k), True),
+                   fill=(255, 255, 255) if bkey != "kiriya" else (38, 36, 40), anchor="mm")
+            d.text((cx, top + jh * 0.34), f"{line1} {line2}", font=f(int(13 * k), True), fill=s["text"], anchor="mm")
+            d.text((cx, top + jh * 0.66), size_txt, font=f(int(12 * k), True), fill=s["text"], anchor="mm")
+
+    shot = Image.alpha_composite(bg.convert("RGBA"), layer)
+
+    # listing badges, like real marketplace thumbnails
+    bd = ImageDraw.Draw(shot)
+    bd.rounded_rectangle([12, 12, 104, 40], radius=6, fill=s["accent"])
+    bd.text((58, 26), "ของแท้ 100%", font=f(14, True), fill=(255, 255, 255) if bkey != "kiriya" else (38, 36, 40), anchor="mm")
+    if bundle:
+        bd.rounded_rectangle([w - 110, 12, w - 12, 40], radius=6, fill=(220, 60, 60))
+        bd.text((w - 61, 26), "เซ็ตคู่สุดคุ้ม", font=f(14, True), fill="white", anchor="mm")
+    elif isinstance(row.gift_with_purchase, str):
+        bd.rounded_rectangle([w - 100, 12, w - 12, 40], radius=6, fill=(60, 150, 90))
+        bd.text((w - 56, 26), "+ของแถม", font=f(14, True), fill="white", anchor="mm")
+
+    mask = Image.new("L", (w, h), 0)
+    ImageDraw.Draw(mask).rounded_rectangle([0, 0, w - 1, h - 1], radius=16, fill=255)
+    img.paste(shot.convert("RGB"), (x0, y0), mask)
+
+
 def draw_screenshot(row: pd.Series, path: Path) -> None:
     from PIL import Image, ImageDraw, ImageFont
 
@@ -194,11 +321,9 @@ def draw_screenshot(row: pd.Series, path: Path) -> None:
     d.text((20, 18), f"{PLATFORM_LABEL[row.platform]}  ·  {row.brand} Official Store", font=f(22, True), fill="white")
     d.text((W - 150, 70), f"mockup · {row.snapshot_date}", font=f(14), fill=(150, 150, 150))
 
-    # product image placeholder
-    d.rounded_rectangle([20, 96, W - 20, 376], radius=16, fill=(244, 240, 236))
-    d.text((W / 2, 210), row.brand, font=f(40, True), fill=(120, 110, 100), anchor="mm")
-    d.text((W / 2, 260), f"{row.size_ml_g:g}{'ml' if 'Cream' not in row.product_name_raw and 'มอยส์' not in row.product_name_raw else 'g'}",
-           font=f(26), fill=(150, 140, 130), anchor="mm")
+    # product photo (illustrated, fictional packaging)
+    draw_product_photo(img, row, f, box=(20, 96, W - 20, 376))
+    d = ImageDraw.Draw(img)
 
     y = 396
     # title (wrap)

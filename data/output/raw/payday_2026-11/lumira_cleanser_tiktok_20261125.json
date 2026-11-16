@@ -13,6 +13,6 @@
   "upsell_detail": "เซ็ตคู่สุดคุ้ม 2 ชิ้น ลดเพิ่ม 15%",
   "min_spend_or_qty": 2,
   "gift_with_purchase": "สำลีแผ่น 1 ห่อ",
-  "confidence": 0.85,
+  "confidence": 0.95,
   "flags": []
 }

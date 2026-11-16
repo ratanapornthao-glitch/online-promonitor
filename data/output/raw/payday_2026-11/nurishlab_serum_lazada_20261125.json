@@ -13,6 +13,6 @@
   "upsell_detail": "ซื้อ 2 ชิ้น ลดเพิ่ม 10%",
   "min_spend_or_qty": 2,
   "gift_with_purchase": null,
-  "confidence": 0.93,
+  "confidence": 0.95,
   "flags": []
 }
