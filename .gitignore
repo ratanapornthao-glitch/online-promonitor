@@ -13,5 +13,3 @@ __pycache__/
 # local Claude Code settings
 .claude/settings.local.json
 
-# real competitor screenshots and results: keep local, never push (public repo)
-data_real/
