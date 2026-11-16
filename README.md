@@ -33,6 +33,14 @@ Three subagents plus a Pydantic validator do the work:
 
 A human checks low-confidence rows before analysis. The Streamlit dashboard shows Campaign Pattern by campaign type, Competitor Promo Calendar, Channel Strategy, upsell mechanics, fake-discount alerts, and a GP margin simulator.
 
+## Report documents
+
+| Rubric | Document |
+| --- | --- |
+| Literature Review (existing solutions, pros/cons, why this approach) | [docs/literature_review.md](docs/literature_review.md) |
+| Methodology & Results (blind test: accuracy, time to insight, insights found) | [docs/results.md](docs/results.md) |
+| Real-data pilot (how to collect and label real screenshots) | [docs/real_data_pilot.md](docs/real_data_pilot.md) |
+
 ## How to run
 
 1. Install [Claude Code](https://docs.claude.com/en/docs/claude-code/overview) and open this folder in it.
