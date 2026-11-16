@@ -10,6 +10,15 @@
 
 Before every monthly campaign (double date, Payday, Brand Day, Flash Sale, seasonal), a skincare brand's marketing team spends 2–3 days opening 5 competitors' shops on Shopee, Lazada and TikTok Shop and copying prices into Excel. By the time the strategy is agreed, competitors have already launched, the campaign misses the shopper's buying window, and ROI falls short.
 
+**Why all three platforms matter.** Thailand's platform e-commerce reached about US$35.5B in 2025, up 51.8%, the fastest growth in Southeast Asia ([Momentum Works](https://thelowdown.momentum.asia/new-report-southeast-asias-platform-ecommerce-reaches-us157-6b-in-2025-with-top-platforms-expanding-share-to-98-8/)). The split between platforms moves quickly:
+
+| Thailand GMV share | Shopee | TikTok Shop | Lazada |
+| --- | --- | --- | --- |
+| Q2 2025 | 56% | 30% | 14% |
+| Q2 2026 | 45% | 48% | 7% |
+
+TikTok Shop passed Shopee for the first time in Q2 2026 ([Cube Asia, Tradewinds](https://cube.asia/ecommerce-in-thailand/)). A brand that watches competitors on only one platform misses where they are moving their promotion budget. Sources and caveats: [docs/literature_review.md](docs/literature_review.md).
+
 ## Solution
 
 Claude Code works as the document intelligence agent. Every screenshot passes through the agent and a human check before it reaches the dashboard:
