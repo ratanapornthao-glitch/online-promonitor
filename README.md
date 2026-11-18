@@ -3,8 +3,8 @@
 **Online Promonitor: A Document Intelligence Agent for Cross-Platform Searching for Sales Promotion on Shopee, Lazada, and TikTok Shop**
 **รู้โปรรู้เขา: ส่องโปรโมชันคู่แข่งข้าม Shopee, Lazada และ TikTok Shop เพื่อวางกลยุทธ์แคมเปญอัพเซลล์**
 
-- 🎥 Video presentation: _YouTube link_
-- 📊 Live demo: _https://online-promonitor.streamlit.app_
+-  Video presentation: _YouTube link_
+-  Live demo: _https://online-promonitor.streamlit.app_
 
 ## Problem
 
@@ -90,12 +90,3 @@ When you switch to real data, delete `data/synthetic_truth.csv` (the dashboard b
 - Competitors' real GP is unknown; GP-based explanations are hypotheses.
 - Screenshots are collected manually in small volume for academic use; no automated scraping.
 
-## Team
-
-| Name | Role |
-| --- | --- |
-| | Data collector |
-| | Agent / prompt engineer |
-| | Data analyst |
-| | Dashboard developer |
-| | Presenter / video editor |
